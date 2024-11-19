@@ -4,3 +4,9 @@ grpc:
       address: static://localhost:9000
       negotiationType: plaintext
 
+rest:
+  api:
+    base-url: http://localhost:8080 # Alamat REST API
+    timeout:
+      connect: 5000 # Waktu timeout koneksi dalam milidetik
+      read: 5000
